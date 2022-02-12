@@ -445,6 +445,13 @@ section {
   content: "";
 }
 
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
+
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
 
