@@ -50,14 +50,21 @@
             <input type="tel" placeholder="Phone number" name="Phone" id="Phone" class="form-input" />
             <p>
                 Have you worked out with a trainer before?
+             <span class="radio-wrapper">  
                 <input type="radio" name="trainer-confirm" id="trainer-yes" />
                 <label for="trainer-yes">yes</label> 
+              </span>
+
+              <span class="radio-wrapper">
                 <input type="radio" name="trainer-confirm" id="trainer-no" />
-                <label for="trainer-no">No</label>          
+                <label for="trainer-no">No</label>
+            </span>          
              </p>
              <p>
+               <span class="checkbox-wrapper">
                  <label for="checkbox">I acknowledge that I am at least 18 years of age.</label>
                  <input type="checkbox" name="age-confirm" id="checkbox" />
+               </span>
              </p>
              <button type="submit">Get running!</button>
         </form>
@@ -223,7 +230,7 @@
       <input type="text" id="contact-name" placeholder="Your Name" />
 
       <label for="contact-message">Message</label>
-      <textarea id="contact-message" placeholder="message">Message</textarea>
+      <textarea id="contact-message" placeholder="Message"></textarea>
 
       <button type="submit">Submit</button>
     </form>
